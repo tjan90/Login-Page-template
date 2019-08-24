@@ -21,14 +21,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="QEa-Mr-99v">
                                 <rect key="frame" x="20" y="44" width="374" height="818"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="App_Name" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJ0-CR-QSt">
-                                <rect key="frame" x="131.5" y="304" width="151.5" height="38.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App_Name" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJ0-CR-QSt">
+                                <rect key="frame" x="131.5" y="237.5" width="151.5" height="38.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="tdq-tg-PoO">
-                                <rect key="frame" x="65" y="368" width="285" height="284.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="tdq-tg-PoO">
+                                <rect key="frame" x="64.5" y="306" width="285" height="284.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login or Create and Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqI-St-1z8">
                                         <rect key="frame" x="0.0" y="0.0" width="285" height="20.5"/>
@@ -62,7 +62,9 @@
                             <constraint firstItem="QEa-Mr-99v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="AwZ-Zy-1DR"/>
                             <constraint firstItem="tdq-tg-PoO" firstAttribute="top" secondItem="hJ0-CR-QSt" secondAttribute="bottom" constant="30" id="EEz-Yz-DFF"/>
                             <constraint firstAttribute="trailingMargin" secondItem="QEa-Mr-99v" secondAttribute="trailing" id="JKB-6D-Ajp"/>
+                            <constraint firstItem="tdq-tg-PoO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Nwc-QP-2bE"/>
                             <constraint firstItem="hJ0-CR-QSt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WUw-lc-mzx"/>
+                            <constraint firstItem="tdq-tg-PoO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lVg-iw-DOu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
